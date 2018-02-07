@@ -1,0 +1,20 @@
+".container": {
+	backgroundColor:"white",
+	layout:"vertical"
+	
+}
+"TableViewRow":{
+	moveable:true
+	
+}
+
+"#table":{
+	top:25,
+	searchHidden:true
+}
+
+"#edittable":{
+	top:20,
+	right:10,
+	width:40
+}

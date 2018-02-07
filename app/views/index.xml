@@ -1,0 +1,32 @@
+<Alloy>
+	
+	<Window class="container">
+		
+		<Button id = "edittable" title="Edit" onClick="turnOnEdit"></Button>
+	
+		<TableView id = "table" editing="false">
+			<SearchBar platform="iOS"></SearchBar>
+			<TableViewSection id = "Subjectssection" headerTitle ="ComputerCourses">
+				<TableViewRow title = "Java"/>
+				<TableViewRow title = "Swift"/>
+				<TableViewRow title = "iOS"/>
+				<TableViewRow title = "Computer Arcitecture"/>
+				<TableViewRow title = "Sowfware Development"/>
+			</TableViewSection>
+			
+			
+		
+		   <TableViewSection id = "Subjectssection" headerTitle ="ElectricalCourses">
+				<TableViewRow title = "Digital Systems"/>
+				<TableViewRow title = "Communication Systems"/>
+				<TableViewRow title = "Power Electronics"/>
+				<TableViewRow title = "Power Systems"/>
+				<TableViewRow title = "Electrical Circuits"/>
+			</TableViewSection>
+			
+		</TableView>
+			
+			
+		
+		</Window>
+</Alloy>
